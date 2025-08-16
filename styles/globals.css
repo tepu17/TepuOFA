@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+body { @apply bg-neutral-900 text-neutral-100; }
+a { @apply text-sky-400 hover:text-sky-300; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-neutral-800 rounded-2xl p-4 shadow border border-neutral-700; }
+.btn { @apply px-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white; }
+.input { @apply bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 w-full text-neutral-100; }
+.table { @apply w-full text-sm; }
+.table th { @apply text-left py-2 border-b border-neutral-700; }
+.table td { @apply py-2 border-b border-neutral-800; }
+.badge { @apply text-xs px-2 py-1 rounded bg-neutral-700; }
