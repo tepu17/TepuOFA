@@ -1,0 +1,1 @@
+import MyTeam from './myteam'; export default MyTeam;
